@@ -160,7 +160,7 @@ const Reviews = () => {
     return (
         <MaxWidthWrapper className='relative max-w-5xl'>
             <Image
-                width={300}
+                width={150}
                 height={300}
                 aria-hidden='true'
                 src='/what-people-are-buying.png'
