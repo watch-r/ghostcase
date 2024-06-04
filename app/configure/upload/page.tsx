@@ -5,9 +5,9 @@ import { useState, useTransition } from "react";
 import Dropzone, { FileRejection } from "react-dropzone";
 import { useRouter } from "next/navigation";
 import { ImageIcon, Loader2, MousePointerSquareDashed } from "lucide-react";
-import { Progress } from "@/components/ui/progress";
+import { Progress } from "@/app/components/ui/progress";
 import { useUploadThing } from "@/lib/uploadthing";
-import { useToast } from "@/components/ui/use-toast";
+import { useToast } from "@/app/components/ui/use-toast";
 
 const UploadPage = () => {
     const [isDragOver, setIsDragOver] = useState<boolean>(false);

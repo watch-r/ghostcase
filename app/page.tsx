@@ -1,8 +1,8 @@
-import { Icons } from "@/components/icons";
-import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import Phone from "@/components/Phone";
-import Reviews from "@/components/Reviews";
-import { buttonVariants } from "@/components/ui/button";
+import { Icons } from "@/app/components/icons";
+import MaxWidthWrapper from "@/app/components/MaxWidthWrapper";
+import Phone from "@/app/components/Phone";
+import Reviews from "@/app/components/Reviews";
+import { buttonVariants } from "@/app/components/ui/button";
 import { CheckIcon, StarFilledIcon } from "@radix-ui/react-icons";
 import { ArrowRight, Check, Star } from "lucide-react";
 import Image from "next/image";
